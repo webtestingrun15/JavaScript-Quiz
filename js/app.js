@@ -52,14 +52,14 @@ $(function() {
                 localStorage.username = $username.val();
                 localStorage.password = $password.val();
                 localStorage.checked = $remember.val();
-            } else{
+            } else {
                 localStorage.username = '';
                 localStorage.password = '';
                 localStorage.checked = '';
             }
         });
 
-        if(localStorage.checked && localStorage.checked != '') {
+        if (localStorage.checked && localStorage.checked != '') {
             $remember.attr('checked', 'checked');
             $username.val(localStorage.username);
             $password.val(localStorage.password);
@@ -74,10 +74,11 @@ $(function() {
         $register.show();
         $intro.hide();
     });
-
+    //stores the account information in local storage
     $accountForm.submit(function(event) {
         event.preventDefault();
         var counter = 0;
+
         $quizForm.show();
         $register.hide();
         if (window.localStorage) {
