@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>State Capitals Quiz</title>
+    <link rel="stylesheet" href="css/nomalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <header>
+        <h1>State Capitals Quiz</h1>
+        <h2 id="hello"></h2>
+        <p>How many state capitals can you answer correctly.</p>
+    </header>
+    <div id="intro">
+    <div id="hello"></div>
+        <form id="startForm">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <input type="submit" value="Sign in">
+            <input type="checkbox" value="remember" id="remember">
+            <label for="remember">Remember Me</label>
+        </form>
+        <button id="account">Create a Account</button>
+    </div>
+    <div id="register">
+        <p>Create your account</p>
+        <form id="accountForm">
+            <label for="cusername">Username</label>
+            <input type="text" name="username" id="cusername" required><br>
+            <label for="cpassword">Password</label>
+            <input type="password" name="password" id="cpassword" required><br>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required><br>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" required><br>
+            <input type="submit"><br>
+        </form>
+    </div>
+
+    <div id="quizForm">
+
+        <div><span id="choices"></span>
+        </div>
+        <div><span id="answers"></span>
+        </div>
+        <button id="previous">Go Back</button>
+        <button id="next">Next</button><span id="error"></span>
+        <button id="finish">Finish</button>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
