@@ -82,10 +82,14 @@ $(function() {
         $quizForm.show();
         $register.hide();
         if (window.localStorage) {
-            // localStorage.setItem('username', $cusername.val());
-            // localStorage.setItem('password', $cpassword.val());
-            // localStorage.setItem('firstName', $firstName.val());
-            // localStorage.setItem('lastName', $lastName.val());
+           // var userdata = [];
+           // function User(username,password,firstName,lastName) {
+           //      this.username = username,
+           //      this.password = password,
+           //      this.firstName = firstName,
+           //      this.lastName = lastName,
+           // }
+
             localStorage.setItem(counter + 1, JSON.stringify({
                 username: $cusername.val(),
                 password: $cpassword.val(),
