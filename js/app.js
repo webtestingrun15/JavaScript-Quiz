@@ -59,7 +59,7 @@ $(function() {
             }
         });
 
-        if (localStorage.checked && localStorage.checked != '') {
+        if (localStorage.checked && localStorage.checked !== '') {
             $remember.attr('checked', 'checked');
             $username.val(localStorage.username);
             $password.val(localStorage.password);
@@ -94,7 +94,7 @@ $(function() {
                 username: $cusername.val(),
                 password: $cpassword.val(),
                 firstName: $firstName.val(),
-                lastName: $lastName.val(),
+                lastName: $lastName.val()
             }));
             var key = localStorage.key(counter);
             var userObj = JSON.parse(localStorage.getItem(key));
@@ -109,7 +109,7 @@ $(function() {
         .done(function(data) {
             allQuestions = data; //json applied
             $previous.hide(); // hide previous button
-            $error.append('<em>' + ' Please select a city to continue' + '</em>'); //error message added
+            $error.text(' Please select a city to continue'); //error message added
             $finish.hide(); // hides the finish button
             $choices.text(allQuestions.allQuestions[0].question); // Shows the first choice
             document.getElementById('next').disabled = true; // disabled next button
@@ -168,7 +168,7 @@ $(function() {
                 $answers.html(""); // clears the choice of cities in answers
                 document.getElementById('next').disabled = true; // disable next button
                 document.getElementById('finish').disabled = true; // disable finish button
-                $error.append('<em>' + ' Please select a city to continue' + '</em>'); //error message added
+                $error.text('<em>' + ' Please select a city to continue' + '</em>'); //error message added
                 // LOOPS AND ADDS EACH CHOICES ITEM FROM THE OTHER ARRAYS TO THE ANSWERS FIELD WITH A LABEL
                 for (var i = 0; i < 4; i++) {
                     var radioBtn = $('<input type="radio" name="answers" />');
