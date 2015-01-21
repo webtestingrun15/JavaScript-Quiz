@@ -1,0 +1,1617 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"load",
+				"loadData"
+			],
+			[
+				"ques",
+				"questions"
+			],
+			[
+				"get",
+				"getJSON  (function)"
+			],
+			[
+				"appen",
+				"appendTo"
+			],
+			[
+				"check",
+				"checked"
+			],
+			[
+				"ses",
+				"sessionStorage"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"addR",
+				"function addRadioButton	(page)"
+			],
+			[
+				"type",
+				"type=  (attribute)"
+			],
+			[
+				"fade",
+				"fadeToggle  (function)"
+			],
+			[
+				"pa",
+				"parent  (function)"
+			],
+			[
+				"quiz",
+				"quizform"
+			],
+			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"q",
+				"quizform"
+			],
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"prop",
+				"prop	.prop() - single"
+			],
+			[
+				"se",
+				"sessionStorage"
+			],
+			[
+				"rad",
+				"radioBtn"
+			],
+			[
+				"radio",
+				"radioChoice"
+			],
+			[
+				"prev",
+				"previous"
+			],
+			[
+				"input",
+				"input:radio"
+			],
+			[
+				"cor",
+				"function correctCount	(countMatch)"
+			],
+			[
+				"tot",
+				"total"
+			],
+			[
+				"tota",
+				"totalQ"
+			],
+			[
+				"corr",
+				"correctAnswer"
+			],
+			[
+				"name",
+				"name=\"answers\"]:checked"
+			],
+			[
+				"inp",
+				"input:radio"
+			],
+			[
+				"app",
+				"append	.append()"
+			],
+			[
+				"count",
+				"countMatch"
+			],
+			[
+				"chec",
+				"checkedRadioButton"
+			],
+			[
+				"coun",
+				"countMatch"
+			],
+			[
+				"che",
+				"checkedRadioButton"
+			],
+			[
+				"att",
+				"attr	.attr() - multiple"
+			],
+			[
+				"ans",
+				"answers"
+			],
+			[
+				"choi",
+				"choices"
+			],
+			[
+				"an",
+				"answers"
+			],
+			[
+				"remove",
+				"remove	.remove()"
+			],
+			[
+				"remo",
+				"removeData	.removeData()"
+			],
+			[
+				"answ",
+				"answerDiv"
+			],
+			[
+				"answe",
+				"answer"
+			],
+			[
+				"answer",
+				"answerDiv"
+			],
+			[
+				"repl",
+				"replaceWith	.replaceWith()"
+			],
+			[
+				"pre",
+				"prepend	.prepend()"
+			],
+			[
+				"la",
+				"labelFor"
+			],
+			[
+				"prep",
+				"prepend	.prepend()"
+			],
+			[
+				"anse",
+				"answers"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"question",
+				"questions"
+			],
+			[
+				"hide",
+				"hide	.hide()"
+			],
+			[
+				"fini",
+				"finish"
+			],
+			[
+				"fin",
+				"finish"
+			],
+			[
+				"bu",
+				"button	Tag"
+			],
+			[
+				"di",
+				"disabled	Attr"
+			],
+			[
+				"questio",
+				"question"
+			],
+			[
+				"cho",
+				"choices"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"quest",
+				"questions"
+			],
+			[
+				"fil",
+				"function fillChoices	()"
+			],
+			[
+				"s",
+				"scriptsrc	scriptsrc"
+			],
+			[
+				"script",
+				"script"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"but",
+				"button	Tag"
+			],
+			[
+				"on",
+				"on	.on()"
+			],
+			[
+				"ove",
+				"overrideMimeType"
+			],
+			[
+				"lo",
+				"loadRates  (function)"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"pos",
+				"post  (function)"
+			],
+			[
+				"su",
+				"submit	.submit()"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"hid",
+				"hide  (function)"
+			],
+			[
+				"u",
+				"load(url, data, complete(responseText, textStatus, XMLHttpRequest)) -> $"
+			],
+			[
+				"a",
+				"afn,	Anonymous Function"
+			],
+			[
+				"new",
+				"newContent"
+			],
+			[
+				"scr",
+				"scriptsrc"
+			],
+			[
+				"src",
+				"src=  (attribute)"
+			],
+			[
+				"scrip",
+				"script	Tag"
+			],
+			[
+				"response",
+				"responseObject"
+			],
+			[
+				"node",
+				"nodeValue	Node"
+			],
+			[
+				"first",
+				"firstChild	Node"
+			],
+			[
+				"getelements",
+				"getElementsByTagName(${0:name})	Element"
+			],
+			[
+				"contain",
+				"container"
+			],
+			[
+				"inser",
+				"insertBefore	.insertBefore()"
+			],
+			[
+				"crea",
+				"createTextNode  (function)"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"create",
+				"createElement  (function)"
+			],
+			[
+				"re",
+				"responseText  (variable)"
+			],
+			[
+				"getEle",
+				"getElementById('aSome')"
+			],
+			[
+				"onload",
+				"onload  (variable)"
+			],
+			[
+				"reu",
+				"return"
+			],
+			[
+				"dec",
+				"descending"
+			],
+			[
+				"toggle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"desc",
+				"descending"
+			],
+			[
+				"is",
+				"is	.is()"
+			],
+			[
+				"th",
+				"this	$(this)"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"sor",
+				"sortable"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"filter",
+				"filter"
+			],
+			[
+				"dis",
+				"display	Style CSS"
+			],
+			[
+				"sty",
+				"style	Style CSS"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"forEac",
+				"forEach(${0:callback})	Array"
+			],
+			[
+				"toL",
+				"toLowerCase()	String"
+			],
+			[
+				"trim",
+				"trim()	String"
+			],
+			[
+				"ga",
+				"gallery"
+			],
+			[
+				"butto",
+				"buttons"
+			],
+			[
+				"ta",
+				"tagName"
+			],
+			[
+				"butt",
+				"buttons"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"add",
+				"addClass  (function)"
+			],
+			[
+				"tag",
+				"tagName"
+			],
+			[
+				"null",
+				"null"
+			],
+			[
+				"append",
+				"appendRows"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"tb",
+				"$tbody	{}"
+			],
+			[
+				"table",
+				"table"
+			],
+			[
+				"ap",
+				"append	.append()"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"price",
+				"priceRange"
+			],
+			[
+				"tab",
+				"$tableBody	{}"
+			],
+			[
+				"Per",
+				"Person()"
+			],
+			[
+				"console",
+				"console.	console.log()"
+			],
+			[
+				"test",
+				"test2	test2"
+			],
+			[
+				"clas",
+				"class_implements  (function)"
+			],
+			[
+				"ea",
+				"each	$.each()"
+			],
+			[
+				"cli",
+				"click  (function)"
+			],
+			[
+				"ife",
+				"ife	if … else"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 9390,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/open browser.sublime-build",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime linter",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"push",
+				"Package Syncing: Push Settings"
+			],
+			[
+				"min",
+				"Minify Javascript"
+			],
+			[
+				"tod",
+				"Snippet: Comment - To-do list"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"todo",
+				"Snippet: Comment - To-do list"
+			],
+			[
+				"commm",
+				"Snippet: Comment - Block style comment"
+			],
+			[
+				"comm",
+				"Snippet: Comment - Subsection comment"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet form",
+				"Snippet: form - Placeholder"
+			],
+			[
+				"copy s",
+				"File: Copy as Tag script"
+			],
+			[
+				"copy sty",
+				"File: Copy as Tag style"
+			],
+			[
+				"tas",
+				"Tasks: New document"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"syncing",
+				"Package Syncing: Push Settings"
+			],
+			[
+				"sync ",
+				"Package Syncing: Define Sync Folder"
+			],
+			[
+				"packa",
+				"Package Syncing: Enable Syncing"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"copy pro",
+				"File: Copy Path From Project"
+			],
+			[
+				"copy ",
+				"File: Copy as Tag style"
+			],
+			[
+				"copy fr",
+				"File: Copy Path From Project"
+			],
+			[
+				"task",
+				"Tasks: New"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"gist ",
+				"Gist: Update File"
+			],
+			[
+				"gis",
+				"Gist: Open Gist"
+			],
+			[
+				"gi",
+				"Gist: Create Public Gist"
+			],
+			[
+				"prod",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"edi",
+				"Project: Edit"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"test",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"htm",
+				"Snippet: html"
+			],
+			[
+				"f",
+				"Fetch: Manage"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"snippe",
+				"Snippet: html"
+			],
+			[
+				"syn",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntax p",
+				"Set Syntax: PHP"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"instak",
+				"Package Control: Install Package"
+			],
+			[
+				"set ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt h",
+				"Set Syntax: HTML5"
+			],
+			[
+				"camel",
+				"Convert Case: camelCase"
+			],
+			[
+				"syntax j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set co",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"op",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"crea",
+				"Create Xiki Buffer"
+			],
+			[
+				"key",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"toggle t",
+				"View: Toggle Tabs"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax m",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ke",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"cop",
+				"File: Copy Path From Project"
+			],
+			[
+				"dock",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"case",
+				"Convert Case: Lower Case"
+			],
+			[
+				"com",
+				"Compare with..."
+			],
+			[
+				"pret",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax jav",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"HTMLPrettify: Set Plugin Options"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Sync/portfolio/JavaScript Quiz",
+		"/F/Sync/portfolio/JavaScript Quiz/data",
+		"/F/Sync/portfolio/JavaScript Quiz/js"
+	],
+	"file_history":
+	[
+		"/F/Sync/portfolio/JavaScript Quiz/data/questions.json",
+		"/F/Sync/portfolio/JavaScript Quiz/project.TODO",
+		"/F/Sync/portfolio/JavaScript Quiz/index.html",
+		"/F/Sync/portfolio/JavaScript Quiz/js/app.js",
+		"/F/Sync/portfolio/JavaScript Quiz/js/jquery.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/js/filter-foreach.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/js/filter-filter.js",
+		"/F/Sync/portfolio/JavaScript Quiz/css/style.css",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/TrailingSpaces/README.md",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery.sublime-project",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/js/example.js",
+		"/F/Work Account/Vagrant/my-project/public/c08/js/c08.js",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/descriptions.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08.html",
+		"/F/Sync/Learning/javascript book/todo.TODO",
+		"/F/Work Account/Vagrant/my-project/public/c08/data/example.json",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/example.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/js/jq-ajax.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/jq-ajax.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/jq-ajax3.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/jq-ajax2.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/jq-ajax.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/jq-post.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/jq-getJSON.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c05/get-elements-by-tag-name.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c05/get-element-by-id.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c09/geolocation.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/js/jq-post.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/jq-post.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/jq-get.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/jq-get.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/jq-load.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/jq-load3.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/jq-load2.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/js/jq-load.js",
+		"/F/Sync/Learning/javascript book/c08/js/jq-load.js",
+		"/F/Sync/Learning/javascript book/c08/jq-load.html",
+		"/F/Sync/Learning/javascript book/c08/c08.html",
+		"/F/Sync/Learning/javascript book/c08/js/c08.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/jq-load.html",
+		"/F/Sync/Learning/javascript book/c08/js/jquery.js",
+		"/F/Sync/Learning/javascript book/c12/js/jquery.js",
+		"/F/Sync/Learning/javascript book/c08/css/c08.css",
+		"/F/Sync/Learning/javascript book/c13/c13.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/data-jsonp.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/data-json.html",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/HTML/scriptsrc.sublime-snippet",
+		"/F/Sync/Learning/javascript book/c08/test.js",
+		"/F/Sync/Learning/javascript book/c08/data/data-jsonp.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/data-xml.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/js/dynamic-filter.js",
+		"/F/Sync/Learning/javascript book/c08/text.xml",
+		"/F/Sync/Learning/javascript book/c08/test.json",
+		"/F/Work Account/Vagrant/my-project/public/c08/data/data.json",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/js/data-json.js",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/data/data-jsonp.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c06/position.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/data/data-jsonp.js",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/data-jsonp.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/data-json.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/js/data-html.js",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/js/data-xml.js",
+		"/F/Work Account/Vagrant/my-project/public/c08/test.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/data-html.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/data-html.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/js/data-xml.js",
+		"/F/Work Account/Vagrant/my-project/public/c08/c08/data-xml.html",
+		"/F/Work Account/Vagrant/my-project/public/c08/data/data.html",
+		"/F/Sync/Learning/javascript book/c08/data/data.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c13/js/textarea-counter.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c08/css/c08.css",
+		"/F/Sync/Learning/javascript book/c02/c02.html",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/F/Sync/Learning/javascript book/c12/c12.html",
+		"/F/Sync/Learning/javascript book/c12/js/c12.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/js/sort-table.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/sort-table.html",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/js/filter-search.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c02/string-operator.html",
+		"/F/Sync/Learning/javascript book/c02/sale.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/filter-search.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c07/filters.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/filter-tags.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/filter-filter.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/filter-foreach.html",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/js/filter-tags.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/js/jquery.nouislider.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/dynamic-filter.html",
+		"/F/Sync/Learning/javascript book/c12/js/jquery.nouislider.all.js",
+		"/F/Sync/Learning/javascript book/c12/css/jquery.nouislider.css",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c12/css/jquery.nouislider.css",
+		"/F/Sync/Learning/javascript book/c12/js/jquery.nouislider.js",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c09/js/jquery-ui.js",
+		"/F/Sync/Learning/javascript book/c13/js/utilities.js",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript/jQuery/jquery object.sublime-snippet",
+		"/F/Sync/Learning/javascript book/c12/css/c12.css",
+		"/F/Sync/Learning/javascript book/c12/js/README.md",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c07/dimensions.html",
+		"/F/Sync/Learning/javascript book/c12/module.coffee",
+		"/F/Sync/Learning/javascript book/file.php",
+		"/F/Sync/Learning/javascript book/index.html",
+		"/F/Sync/Learning/javascript book/test.js",
+		"/F/Work Account/Desktop/sample/script.js",
+		"/F/Work Account/Desktop/sample/index.html",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/Fetch.sublime-settings",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/F/Work Account/Desktop/sample/css/style.css",
+		"/F/Work Account/Desktop/sample/my-class.php",
+		"/F/Work Account/Desktop/sample/test.js",
+		"/F/Work Account/Desktop/sample/sample.TODO",
+		"/c/users/work/appdata/local/temp/index.html",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/F/Work Account/Desktop/sample/sample.sublime-project",
+		"/F/Work Account/Desktop/sample/normalize.css",
+		"/F/Work Account/Desktop/sample/jquery.js",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript/Backbone/model-view-extend.sublime-snippet",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript/hello.sublime-snippet",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript/jQuery/event-on.sublime-snippet",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript/Backbone/model-extend.sublime-snippet",
+		"/C/Users/Work/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript Snippets/hello.sublime-snippet",
+		"/F/Sync/Learning/javascript book/javascript-and-jquery-jul-2014/c13/js/validation.js"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 121.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0",
+			"\"}\"",
+			"}",
+			"correctAnswer",
+			"choices",
+			"for",
+			"prevent",
+			"sessionStorage",
+			"count",
+			"parent",
+			"200",
+			"$('input:radio')",
+			"countMatch",
+			"});\n",
+			"();\n",
+			"answers",
+			"i",
+			"cities",
+			"questions",
+			"choices",
+			"choice",
+			"value",
+			"capacity",
+			"name=\"\"",
+			"a",
+			"name",
+			"body",
+			"four",
+			"person",
+			"jeff",
+			"wordpress",
+			"jeff",
+			"funman",
+			"link",
+			"the name",
+			"the",
+			"the name\n",
+			"function",
+			"the name\n",
+			"the name",
+			"the",
+			"isFormValid",
+			"else",
+			"showErrorMessage",
+			"line_padding_bottom",
+			"n",
+			"table",
+			"CreativeFolk",
+			"table",
+			"argum",
+			"body",
+			"...\n",
+			"argument",
+			"fdjsfks"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								798,
+								798
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/JavaScriptNext - ES6 Syntax/Monokai Phoenix.tmTheme",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 168.0
+	},
+	"output.find_results":
+	{
+		"height": 217.0
+	},
+	"project": "JavaScript Quiz.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"example.js",
+				"c08\\c08\\js\\example.js"
+			],
+			[
+				"jq-ajax",
+				"c08\\c08\\js\\jq-ajax.js"
+			],
+			[
+				"jq-aja",
+				"c08\\c08\\jq-ajax.html"
+			],
+			[
+				"get",
+				"c08\\c08\\jq-getJSON.html"
+			],
+			[
+				"getjs",
+				"c08\\c08\\jq-getJSON.html"
+			],
+			[
+				"jq-pos",
+				"c08\\c08\\js\\jq-post.js"
+			],
+			[
+				"jq-p",
+				"c08\\c08\\jq-post.html"
+			],
+			[
+				"jq-get",
+				"javascript book\\javascript-and-jquery-jul-2014\\c08\\jq-get.html"
+			],
+			[
+				"jq-l",
+				"javascript-and-jquery-jul-2014\\c08\\jq-load.html"
+			],
+			[
+				"c08",
+				"c08\\js\\c08.js"
+			],
+			[
+				"data-json",
+				"javascript-and-jquery-jul-2014\\c08\\data-jsonp.html"
+			],
+			[
+				"data-js",
+				"javascript-and-jquery-jul-2014\\c08\\data-json.html"
+			],
+			[
+				"data",
+				"c08\\c08\\data\\data-jsonp.js"
+			],
+			[
+				"data.json",
+				"c08\\data\\data.json"
+			],
+			[
+				"data-ht",
+				"c08\\c08\\js\\data-html.js"
+			],
+			[
+				"data-xml",
+				"c08\\c08\\js\\data-xml.js"
+			],
+			[
+				"data-x",
+				"javascript-and-jquery-jul-2014\\c08\\data-xml.html"
+			],
+			[
+				"to",
+				"todo.TODO"
+			],
+			[
+				"test.js",
+				"c08\\test.json"
+			],
+			[
+				"sort",
+				"javascript-and-jquery-jul-2014\\c12\\sort-table.html"
+			],
+			[
+				"filterse",
+				"javascript-and-jquery-jul-2014\\c12\\js\\filter-search.js"
+			],
+			[
+				"filter",
+				"javascript-and-jquery-jul-2014\\c12\\filter-search.html"
+			],
+			[
+				"filtert",
+				"javascript-and-jquery-jul-2014\\c12\\js\\filter-tags.js"
+			],
+			[
+				"c12",
+				"c12\\js\\c12.js"
+			],
+			[
+				"fil",
+				"javascript-and-jquery-jul-2014\\c12\\filter-tags.html"
+			],
+			[
+				"ui",
+				"c12\\css\\jquery.nouislider.css"
+			],
+			[
+				"uislid",
+				"javascript-and-jquery-jul-2014\\c12\\js\\jquery.nouislider.js"
+			],
+			[
+				"uisl",
+				"c12\\css\\jquery.nouislider.css"
+			],
+			[
+				"dyn",
+				"javascript-and-jquery-jul-2014\\c12\\js\\dynamic-filter.js"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"vali",
+				"javascript-and-jquery-jul-2014\\c13\\js\\validation.js"
+			],
+			[
+				"tes",
+				"test.js"
+			],
+			[
+				"index",
+				"c07\\index.html"
+			],
+			[
+				"filter-f",
+				"javascript-and-jquery-jul-2014\\c12\\js\\filter-filter.js"
+			],
+			[
+				"va",
+				"javascript-and-jquery-jul-2014\\c13\\validation.html"
+			],
+			[
+				"birth",
+				"javascript-and-jquery-jul-2014\\c13\\js\\birthday.js"
+			],
+			[
+				"c13",
+				"c13\\js\\c13.js"
+			],
+			[
+				"pass",
+				"javascript-and-jquery-jul-2014\\c13\\js\\password-signup.js"
+			],
+			[
+				"paw",
+				"c13\\js\\password-signup.js"
+			],
+			[
+				"val",
+				"javascript-and-jquery-jul-2014\\c13\\validation.html"
+			],
+			[
+				"c1",
+				"c13\\c13.html"
+			],
+			[
+				"",
+				"javascript-and-jquery-jul-2014\\c13\\js\\validation.js"
+			],
+			[
+				"v",
+				"javascript-and-jquery-jul-2014\\c13\\js\\validation.js"
+			],
+			[
+				"number",
+				"javascript-and-jquery-jul-2014\\c13\\number-polyfill.html"
+			],
+			[
+				"c13.",
+				"c13\\js\\c13.js"
+			],
+			[
+				"placeholder",
+				"javascript-and-jquery-jul-2014\\c13\\placeholder-polyfill.html"
+			],
+			[
+				"text",
+				"javascript-and-jquery-jul-2014\\c13\\js\\textarea-counter.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\Sync\\Learning\\javascript book\\javascript-and-jquery.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
