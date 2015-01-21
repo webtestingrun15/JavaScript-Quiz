@@ -4,54 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>State Capitals Quiz</title>
-    <link rel="stylesheet" href="css/nomalize.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <header>
-        <h1>State Capitals Quiz</h1>
-        <h2 id="hello"></h2>
-        <p>How many state capitals can you answer correctly.</p>
-    </header>
-    <div id="intro">
-    <div id="hello"></div>
-        <form id="startForm">
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username" required>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" required>
-            <input type="submit" value="Sign in">
-            <input type="checkbox" value="remember" id="remember">
-            <label for="remember">Remember Me</label>
-        </form>
-        <button id="account">Create a Account</button>
-    </div>
-    <div id="register">
-        <p>Create your account</p>
-        <form id="accountForm">
-            <label for="cusername">Username</label>
-            <input type="text" name="username" id="cusername" required><br>
-            <label for="cpassword">Password</label>
-            <input type="password" name="password" id="cpassword" required><br>
-            <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="firstName" required><br>
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName" required><br>
-            <input type="submit"><br>
-        </form>
-    </div>
 
-    <div id="quizForm">
+    <div class="container">
+        <header>
+            <h1>State Capitals Quiz</h1>
+            <h2 id="hello"></h2>
+            <p>How many state capitals can you answer correctly.</p>
+        </header>
 
-        <div><span id="choices"></span>
+        <div id="intro" class="text-center">
+            <div id="hello"></div>
+            <form id="startForm" class="form-inline">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" name="username" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" name="password" id="password" required>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember" id="remember"> Remember Me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
+            </form>
+            <button class="btn btn-default" id="account">Create a Account</button>
         </div>
-        <div><span id="answers"></span>
+        <div id="register">
+            <h3>Create your account</h3>
+            <form id="accountForm">
+                <div class="form-group">
+                    <label for="cusername">Username</label>
+                    <input type="text" name="username" id="cusername" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="cpassword">Password</label>
+                    <input type="password" name="password" id="cpassword" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" class="form-control" required>
+                </div>
+                <button class="btn btn-default" type="submit">Submit</button>
+
+            </form>
         </div>
-        <button id="previous">Go Back</button>
-        <button id="next">Next</button><span id="error"></span>
-        <button id="finish">Finish</button>
+
+        <div id="quizForm" class="text-center">
+
+            <div id="choices"></div>
+            <div id="answers" class="radio"></div>
+            <button id="previous" class="btn btn-default">Go Back</button>
+            <button id="next" class="btn btn-default">Next</button><span id="error" class="text-danger"></span>
+            <button id="finish" class="btn btn-success">Finish</button>
+        </div>
     </div>
 
     <script src="js/jquery.js"></script>
