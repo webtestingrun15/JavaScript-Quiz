@@ -1,6 +1,6 @@
-/* {
+* {
     border: 1px solid red !important;
-}*/
+}
 /*body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -10,7 +10,14 @@
     text-align:  center;
 }
 */
-.radio label{
-  padding-left: 30px;
+body {
+  font-family: 'Nunito', sans-serif;
 }
 
+h1 {
+  font-family: 'Muli', sans-serif;
+}
+
+.radio label {
+    padding-left: 30px;
+}
