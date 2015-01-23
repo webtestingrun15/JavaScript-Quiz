@@ -18,8 +18,8 @@ $(function() {
     var $remember = $('#remember'); // Checked box
     var $intro = $('#intro'); //intro div
     var $register = $('#register');
-    var $account = $('#account');
-    var $accountForm = $('#accountForm');
+    var $account = $('#account'); //create account button
+    var $accountForm = $('#accountForm'); // the new account form
     var $hello = $('#hello'); //header hello
     var $cusername = $('#cusername'); // created username
     var $cpassword = $('#password'); // created password
@@ -28,12 +28,13 @@ $(function() {
 
     $register.hide();
     $quizForm.hide();
-    //TODO: Match Login to localstorage
+
+    //Match Login to localstorage
     $startForm.submit(function(event) {
         event.preventDefault();
         $quizForm.show();
         $intro.hide();
-        // $hello.text('Hello'); //TODO: Add elements username/password firstname last name to localstorage
+        // Add elements username/password firstname last name to localstorage
         if (window.localStorage) {
             for (var i = 0; i < localStorage.length; i++) {
                 var key = localStorage.key(i);
@@ -43,8 +44,8 @@ $(function() {
                 }
             }
         }
-
     });
+
     // Remember User
     if (window.localStorage) {
         $remember.click(function() {
@@ -69,7 +70,8 @@ $(function() {
             $password.val('');
         }
     }
-    //Goes to register page
+
+    //Goes to register page when account button clicked
     $account.click(function() {
         $register.show();
         $intro.hide();
@@ -98,12 +100,10 @@ $(function() {
             }));
             var key = localStorage.key(counter);
             var userObj = JSON.parse(localStorage.getItem(key));
-            $hello.text('Hello ' + userObj.firstName); //TODO: Add elements username/password firstname last name to localstorage
+            $hello.text('Hello ' + userObj.firstName);
         }
     });
 
-    //TODO:Show firstName when user reaches quizForm from local storage saying
-    // Welcome back firstName.
     var allQuestions; //JSON with data
     $.getJSON('data/questions.json')
         .done(function(data) {
@@ -117,8 +117,6 @@ $(function() {
                 sessionStorage.clear(); //clears the session  on every reset
             }
 
-            /* https://stackoverflow.com/questions/5550785/how-to-create-a-radio-button-dynamically-with-jquery */
-
             // LOOPS AND ADDS EACH CHOICES ITEM FROM THE FIRST ARRAY TO THE ANSWERS FIELD WITH A LABEL
             for (var i = 0; i < 4; i++) {
                 var radioBtn = $('<input type="radio" name="answers"/>'); // create a radio input
@@ -126,7 +124,6 @@ $(function() {
                 var radioChoice = radioBtn.prop('value', allQuestions.allQuestions[0].choices[i]); // adds value attribute with
                 var radioLabel = labelFor.prepend(radioChoice);
                 radioLabel.appendTo($answers);
-
             }
 
             $('input:radio').change(function() {
@@ -147,12 +144,7 @@ $(function() {
                 }
             });
 
-            // $next.on('click', function(event) {
-            //   event.preventDefault();
 
-            // });
-            /* https://stackoverflow.com/questions/16549183/jquery-iterate-through-an-array-by-using-onclick
-             **/
             $next.on('click', function() {
                 // $answers.fadeOut(500);
                 count = (count + 1) % allQuestions.allQuestions.length;
@@ -168,7 +160,7 @@ $(function() {
                 $answers.html(""); // clears the choice of cities in answers
                 document.getElementById('next').disabled = true; // disable next button
                 document.getElementById('finish').disabled = true; // disable finish button
-                $error.text('<em>' + ' Please select a city to continue' + '</em>'); //error message added
+                $error.text('Please select a city to continue'); //error message added
                 // LOOPS AND ADDS EACH CHOICES ITEM FROM THE OTHER ARRAYS TO THE ANSWERS FIELD WITH A LABEL
                 for (var i = 0; i < 4; i++) {
                     var radioBtn = $('<input type="radio" name="answers" />');
