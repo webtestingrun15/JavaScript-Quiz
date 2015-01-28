@@ -29,6 +29,7 @@ $(function() {
     $register.hide();
     $quizForm.hide();
 
+    quizScores = [];
     //Match Login to localstorage
     $startForm.submit(function(event) {
         event.preventDefault();
@@ -118,6 +119,10 @@ $(function() {
             }
 
             // LOOPS AND ADDS EACH CHOICES ITEM FROM THE FIRST ARRAY TO THE ANSWERS FIELD WITH A LABEL
+            // function radioloop() {
+
+            // }
+
             for (var i = 0; i < 4; i++) {
                 var radioBtn = $('<input type="radio" name="answers"/>'); // create a radio input
                 var labelFor = $('<label>' + allQuestions.allQuestions[0].choices[i] + '</label>'); //applies a label
@@ -125,6 +130,11 @@ $(function() {
                 var radioLabel = labelFor.prepend(radioChoice);
                 radioLabel.appendTo($answers);
             }
+            // var tmp = Handlebars.compile($('#answers-template').html());
+
+            // $('#answers').append(tmp([
+            //     { value: allQuestions.allQuestions[0].choices},
+            //     { label : allQuestions.allQuestions[0].choices[i]}]));
 
             $('input:radio').change(function() {
                 //checks if the radio button matches the correct answer
@@ -294,7 +304,12 @@ $(function() {
             function correctCount(number) {
                 var totalQ = 5; // total questions
                 var total = (number / totalQ) * 100;
+                saveScore(total);
                 return total;
+            }
+
+            function saveScore(score) {
+                quizScores.push(score);
             }
 
             $finish.on('click', function() {
