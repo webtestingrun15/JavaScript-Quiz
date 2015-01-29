@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>State Capitals Quiz</title>
+    <script src="js/handlebars-v2.0.0.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -33,7 +36,7 @@
                         <input type="password" class="form-control" name="password" id="password" required>
                     </div>
                     <div class="checkbox">
-                        <label>
+                        <label class="remember">
                             <input type="checkbox" value="remember" id="remember"> Remember Me
                         </label>
                     </div>
@@ -72,6 +75,11 @@
             <div id="quizForm" class="text-center">
                 <div id="choices"></div>
                 <div id="answers" class="radio"></div>
+                <script type="text/x-handlebars-template" id="answers-template">
+                {{#each this}}
+                <label><input type="radio" name="answers" value={{value}}>{{label}}</label>
+                {{/each}}
+                </script>
                 <button id="previous" class="btn btn-default">Go Back</button>
                 <button id="next" class="btn btn-default">Next</button><span id="error" class="text-danger"></span>
                 <button id="finish" class="btn btn-success">Finish</button>

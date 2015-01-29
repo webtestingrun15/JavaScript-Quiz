@@ -1,7 +1,7 @@
-* {
+/* {
     border: 1px solid red !important;
 }
-/*body {
+body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -16,6 +16,14 @@ body {
 
 h1 {
   font-family: 'Muli', sans-serif;
+}
+
+.form-group {
+  padding-left: 10px;
+}
+
+.remember {
+
 }
 
 .radio label {

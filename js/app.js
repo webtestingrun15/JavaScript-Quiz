@@ -30,6 +30,7 @@ $(function() {
     $quizForm.hide();
 
     quizScores = [];
+
     //Match Login to localstorage
     $startForm.submit(function(event) {
         event.preventDefault();
@@ -85,13 +86,13 @@ $(function() {
         $quizForm.show();
         $register.hide();
         if (window.localStorage) {
-           // var userdata = [];
-           // function User(username,password,firstName,lastName) {
-           //      this.username = username,
-           //      this.password = password,
-           //      this.firstName = firstName,
-           //      this.lastName = lastName,
-           // }
+            // var userdata = [];
+            // function User(username,password,firstName,lastName) {
+            //      this.username = username,
+            //      this.password = password,
+            //      this.firstName = firstName,
+            //      this.lastName = lastName,
+            // }
 
             localStorage.setItem(counter + 1, JSON.stringify({
                 username: $cusername.val(),
@@ -123,18 +124,31 @@ $(function() {
 
             // }
 
-            for (var i = 0; i < 4; i++) {
-                var radioBtn = $('<input type="radio" name="answers"/>'); // create a radio input
-                var labelFor = $('<label>' + allQuestions.allQuestions[0].choices[i] + '</label>'); //applies a label
-                var radioChoice = radioBtn.prop('value', allQuestions.allQuestions[0].choices[i]); // adds value attribute with
-                var radioLabel = labelFor.prepend(radioChoice);
-                radioLabel.appendTo($answers);
-            }
-            // var tmp = Handlebars.compile($('#answers-template').html());
+            // for (var i = 0; i < 4; i++) {
+            //     var radioBtn = $('<input type="radio" name="answers"/>'); // create a radio input
+            //     var labelFor = $('<label>' + allQuestions.allQuestions[0].choices[i] + '</label>'); //applies a label
+            //     var radioChoice = radioBtn.prop('value', allQuestions.allQuestions[0].choices[i]); // adds value attribute with
+            //     var radioLabel = labelFor.prepend(radioChoice);
+            //     radioLabel.appendTo($answers);
+            // }
 
-            // $('#answers').append(tmp([
-            //     { value: allQuestions.allQuestions[0].choices},
-            //     { label : allQuestions.allQuestions[0].choices[i]}]));
+            var radioData = [{
+                value: allQuestions.allQuestions[0].choices[0],
+                label: allQuestions.allQuestions[0].choices[0]
+            }, {
+                value: allQuestions.allQuestions[0].choices[1],
+                label: allQuestions.allQuestions[0].choices[1]
+            }, {
+                value: allQuestions.allQuestions[0].choices[2],
+                label: allQuestions.allQuestions[0].choices[2]
+            }, {
+                value: allQuestions.allQuestions[0].choices[3],
+                label: allQuestions.allQuestions[0].choices[3]
+            }];
+            var template = $("#answers-template").html();
+            var templateScript = Handlebars.compile(template);
+            $answers.append(templateScript(radioData));
+
 
             $('input:radio').change(function() {
                 //checks if the radio button matches the correct answer
@@ -172,14 +186,30 @@ $(function() {
                 document.getElementById('finish').disabled = true; // disable finish button
                 $error.text('Please select a city to continue'); //error message added
                 // LOOPS AND ADDS EACH CHOICES ITEM FROM THE OTHER ARRAYS TO THE ANSWERS FIELD WITH A LABEL
-                for (var i = 0; i < 4; i++) {
-                    var radioBtn = $('<input type="radio" name="answers" />');
-                    var labelFor = $('<label for="">' + allQuestions.allQuestions[count].choices[i] + '</label>');
-                    var radioChoice = radioBtn.attr('value', allQuestions.allQuestions[count].choices[i]);
-                    var radioLabel = labelFor.prepend(radioChoice).fadeIn(500);
-                    radioLabel.appendTo($answers);
+                // for (var i = 0; i < 4; i++) {
+                //     var radioBtn = $('<input type="radio" name="answers" />');
+                //     var labelFor = $('<label for="">' + allQuestions.allQuestions[count].choices[i] + '</label>');
+                //     var radioChoice = radioBtn.attr('value', allQuestions.allQuestions[count].choices[i]);
+                //     var radioLabel = labelFor.prepend(radioChoice).fadeIn(500);
+                //     radioLabel.appendTo($answers);
+                // }
 
-                }
+                var radioData = [{
+                    value: allQuestions.allQuestions[count].choices[0],
+                    label: allQuestions.allQuestions[count].choices[0]
+                }, {
+                    value: allQuestions.allQuestions[count].choices[1],
+                    label: allQuestions.allQuestions[count].choices[1]
+                }, {
+                    value: allQuestions.allQuestions[count].choices[2],
+                    label: allQuestions.allQuestions[count].choices[2]
+                }, {
+                    value: allQuestions.allQuestions[count].choices[3],
+                    label: allQuestions.allQuestions[count].choices[3]
+                }];
+                var template = $("#answers-template").html();
+                var templateScript = Handlebars.compile(template);
+                $answers.append(templateScript(radioData));
                 if (sessionStorage !== undefined) {
                     $('input:radio[name="answers"]').val([sessionStorage.getItem(count)]);
                 }
@@ -244,17 +274,37 @@ $(function() {
                     $finish.hide();
                 }
 
-                // LOOPS AND ADDS EACH CHOICES ITEM FROM THE OTHER ARRAYS TO THE ANSWERS FIELD WITH A LABEL
-                for (var i = 0; i < 4; i++) {
-                    var radioBtn = $('<input type="radio" name="answers" />');
-                    var labelFor = $('<label>' + allQuestions.allQuestions[count].choices[i] + '</label>');
-                    var radioChoice = radioBtn.attr('value', allQuestions.allQuestions[count].choices[i]);
-                    var radioLabel = labelFor.prepend(radioChoice);
-                    radioLabel.appendTo($answers);
+                // // LOOPS AND ADDS EACH CHOICES ITEM FROM THE OTHER ARRAYS TO THE ANSWERS FIELD WITH A LABEL
+                // for (var i = 0; i < 4; i++) {
+                //     var radioBtn = $('<input type="radio" name="answers" />');
+                //     var labelFor = $('<label>' + allQuestions.allQuestions[count].choices[i] + '</label>');
+                //     var radioChoice = radioBtn.attr('value', allQuestions.allQuestions[count].choices[i]);
+                //     var radioLabel = labelFor.prepend(radioChoice);
+                //     radioLabel.appendTo($answers);
 
-                    // var $selected = $('input:radio[name="answers"]:checked').val();
-                    // $selected.attr('checked', true);
+                //     // var $selected = $('input:radio[name="answers"]:checked').val();
+                //     // $selected.attr('checked', true);
 
+                // }
+
+                var radioData = [{
+                    value: allQuestions.allQuestions[count].choices[0],
+                    label: allQuestions.allQuestions[count].choices[0]
+                }, {
+                    value: allQuestions.allQuestions[count].choices[1],
+                    label: allQuestions.allQuestions[count].choices[1]
+                }, {
+                    value: allQuestions.allQuestions[count].choices[2],
+                    label: allQuestions.allQuestions[count].choices[2]
+                }, {
+                    value: allQuestions.allQuestions[count].choices[3],
+                    label: allQuestions.allQuestions[count].choices[3]
+                }];
+                var template = $("#answers-template").html();
+                var templateScript = Handlebars.compile(template);
+                $answers.append(templateScript(radioData));
+                if (sessionStorage !== undefined) {
+                    $('input:radio[name="answers"]').val([sessionStorage.getItem(count)]);
                 }
 
                 // TODO: IE NOT SELECTING THE RADIO BUTTON
@@ -310,6 +360,7 @@ $(function() {
 
             function saveScore(score) {
                 quizScores.push(score);
+                localStorage.quizScores = JSON.stringify(quizScores);
             }
 
             $finish.on('click', function() {
@@ -318,7 +369,7 @@ $(function() {
                 $finish.hide();
                 $previous.hide();
                 $header.text(""); // Clears current header form
-                $header.append('<em>' + 'You got ' + countMatch + ' right.' + ' Which is ' + correctCount(countMatch) + '%.' + '</em>');
+                $header.append('You got ' + countMatch + ' right.' + ' Which is ' + correctCount(countMatch) + '%.');
             });
         });
 });
