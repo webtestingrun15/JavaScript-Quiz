@@ -1,0 +1,23 @@
+{
+  "allQuestions" : [{
+        "question": "What is the capital of Texas?",
+        "choices": ["The Alamo", "Austin", "Dallas", "Houston"],
+        "correctAnswer": "Austin"
+    }, {
+        "question": "What is the capital of California?",
+        "choices": ["Los Angelenos", "Sacramento", "Oakland", "The Bay Area"],
+        "correctAnswer": "Sacramento"
+    }, {
+        "question": "What is the capital of Florida?",
+        "choices": ["Orlando", "Tampa", "Tallahassee", "Miami"],
+        "correctAnswer": "Tallahassee"
+    }, {
+        "question": "What is the capital of New York?",
+        "choices": ["New York", "White Plains", "Manhattan", "Albany"],
+        "correctAnswer": "Albany"
+    }, {
+        "question": "What is the capital of Ohio?",
+        "choices": ["Cleveland", "Columbus", "Cincinnati", "Toledo"],
+        "correctAnswer": "Columbus"
+    }]
+}

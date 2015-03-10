@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>State Capitals Quiz</title>
+    <script src="js/handlebars-v2.0.0.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <header class="col-md-12 text-center">
+                <h1>State Capitals Quiz</h1>
+                <h2 id="hello"></h2>
+                <p>How many state capitals can you answer correctly.</p>
+            </header>
+        </div>
+
+        <div class="row">
+            <div id="intro" class="text-center">
+                <form id="startForm" class="form-inline">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" name="username" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" name="password" id="password" required>
+                    </div>
+                    <div class="checkbox">
+                        <label class="remember">
+                            <input type="checkbox" value="remember" id="remember"> Remember Me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
+                    <button class="btn btn-default" id="account">Create a Account</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="register">
+                <h3>Create your account</h3>
+                <form id="accountForm">
+                    <div class="form-group">
+                        <label for="cusername">Username</label>
+                        <input type="text" name="username" id="cusername" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cpassword">Password</label>
+                        <input type="password" name="password" id="cpassword" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" class="form-control" required>
+                    </div>
+                    <button class="btn btn-default" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="quizForm" class="text-center">
+                <div id="choices"></div>
+                <div id="answers" class="radio"></div>
+                <script type="text/x-handlebars-template" id="answers-template">
+                {{#each this}}
+                <label><input type="radio" name="answers" value={{value}}>{{label}}</label>
+                {{/each}}
+                </script>
+                <button id="previous" class="btn btn-default">Go Back</button>
+                <button id="next" class="btn btn-default">Next</button><span id="error" class="text-danger"></span>
+                <button id="finish" class="btn btn-success">Finish</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

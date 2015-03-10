@@ -1,0 +1,31 @@
+/* {
+    border: 1px solid red !important;
+}
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align:  center;
+}
+*/
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-family: 'Muli', sans-serif;
+}
+
+.form-group {
+  padding-left: 10px;
+}
+
+.remember {
+
+}
+
+.radio label {
+    padding-left: 30px;
+}
